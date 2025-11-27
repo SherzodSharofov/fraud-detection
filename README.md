@@ -4,9 +4,10 @@ description:
 lightgbm-based model for real-time fraud detection. developed for fortebank hackathon
 
 model metrics:
-- roc-auc: ~0.85
-- recall (threshold 0.3): 0.36
-- precision (threshold 0.3): 0.39
+- roc-auc: 0.9465
+- precision: 0.69
+- recall: 0.42
+- f1-score: 0.52
 
 files:
 - `fraud-detection (1).ipynb` — main notebook with eda, feature engineering and training
